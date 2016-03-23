@@ -2,13 +2,15 @@
 // console.log a # sign for each value
 // then minus one off the 
 
-
-function min(arg, arg2){
-  if(arg < arg2){
-    console.log(arg)
+var result
+function isEven(number) {
+  if(number % 2 === 0 ){
+    console.log(result =  true)
   } else {
-    console.log(arg2)
+    console.log(result = false)
   }
+  
 }
 
-min(0,-10)
+
+isEven(-1)
