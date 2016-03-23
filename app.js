@@ -2,15 +2,8 @@
 // console.log a # sign for each value
 // then minus one off the 
 
-var result
-function isEven(number) {
-  if(number % 2 === 0 ){
-    console.log(result =  true)
-  } else {
-    console.log(result = false)
-  }
-  
+function countBs(string, arg) {
+  console.log(string.split(arg).length - 1)
 }
 
-
-isEven(-1)
+countBs("BBSSae", "e")
